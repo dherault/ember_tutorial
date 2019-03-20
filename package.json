@@ -1,0 +1,19 @@
+{
+  "name": "ember_tutorial",
+  "version": "1.0.0",
+  "description": "Ember.js tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/ember_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dherault/ember_tutorial/issues"
+  },
+  "homepage": "https://github.com/dherault/ember_tutorial#readme"
+}
