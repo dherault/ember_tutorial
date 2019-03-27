@@ -14,6 +14,9 @@ export default Controller.extend({
             return { query: param, results: results };
           });
       }
+    },
+    filterByRange(param) {
+      console.log('filterByRange', param)
     }
   }
 });

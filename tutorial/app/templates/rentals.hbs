@@ -7,6 +7,17 @@
   {{/link-to}}
 </div>
 
+<HistogramFilter
+  @filter={{action "filterByRange"}}
+  as |range|
+> 
+  <ul>
+    {{#each range as |r|}}
+      <li>{{r}}</li>
+    {{/each}}
+  </ul>
+</HistogramFilter>
+
 <ListFilter
  @filter={{action "filterByCity"}}
 as |filteredResults|

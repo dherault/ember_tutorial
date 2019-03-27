@@ -1,0 +1,8 @@
+<div>
+  {{#each this.binsPerValue as |value|}}
+    {{#if value}}
+      <div style={{`height: ${value / 500}; background-color: Navy; width: 10px;`}}></div>
+    {{/if}}
+  {{/each}}
+</div>
+{{yield this.range}}
